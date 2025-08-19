@@ -1,8 +1,12 @@
 # Automated Excel Inventory Tracking System with Dashboard
 
-### Data Transformation and Modelling
+### About this project
 
-### Data Visualization
+### Data Extraction & Transformation
+
+### Data Modelling
+
+### Visualization
 
 ### Key Insights
 
