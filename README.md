@@ -1,1 +1,1 @@
-# Automated-Excel-Inventory-Tracking-System-with-Dashboard
+# Automated Excel Inventory Tracking System with Dashboard
