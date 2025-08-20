@@ -10,9 +10,9 @@ Two *Excel formatted* tables are created using sheets as the database:
 
 Using VLOOKUP, UnitCostPrice and UnitSalesPrice are copied from the Products table to the Transactions table base on ProductID. This is to ease data modelling calculations. 
 
-*Products* table (snippet):
+*Products table (snippet)*:
 
-*Transactions* table (snippet):
+*Transactions table (snippet)*:
 
 ### Data Entry
 The system features an **Excel UserForm** that simplifies recording new transactions into the **Transactions** table. To reduce errors and speed up entry, key fields are automated and streamlined:
@@ -23,6 +23,7 @@ The system features an **Excel UserForm** that simplifies recording new transact
 - **Note**: An optional text field, mainly used for recording remarks on damaged items.
 
 This user-friendly entry system ensures consistency, accuracy, and efficiency in updating inventory records.
+*Data Entry UserForm*:
 
 ### Data Extraction & Transformation
 **Data transformation** is achieved through formulas, pivot tables, and macros that automatically:
