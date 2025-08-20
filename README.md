@@ -22,8 +22,8 @@ Relationships are maintained via **ProductID** as a key.
 
 ### Visualization
 The project includes an interactive Excel dashboard with the following pages:
-**1.** **Inventory Overview** – Summary of stock availability, inventory value, and movement.
-**2. KPI Dashboard** – Tracks key metrics such as Net Sales, COGS, Inventory Turnover Ratio, and Inventory to Sales Ratio.
+1. **Inventory Overview** – Summary of stock availability, inventory value, and movement.
+2. **KPI Dashboard** – Tracks key metrics such as Net Sales, COGS, Inventory Turnover Ratio, and Inventory to Sales Ratio.
 **3. Top 10 Analysis** –
     - Products by revenue.
     - Products by stock value.
