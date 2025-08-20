@@ -47,8 +47,8 @@ The project includes an interactive Excel dashboard with the following pages:
 1. **Inventory Dashboard** –
    - **KPIs** – Tracks key metrics such as Net Sales, COGS, Inventory Turnover Ratio, and Inventory to Sales Ratio.
    - **Top 10 Analysis** –
-    - Products by revenue.
-    - Products by stock value.
+       - Products by revenue.
+       - Products by stock value.
    - **Monthly Sales Trend** – Quantity sold per month.
 
 2. **Inventory Overview** – Summary of stock availability, inventory value, and movement.....stock status
