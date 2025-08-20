@@ -7,6 +7,7 @@ This project is an automated inventory tracking system built in Excel with VBA, 
 Two *Excel formatted* tables are created using sheets as the database:
 - **Products** table defines product details; Product ID, Product Name, Category, Unit Cost Price, Unit Sales Price, Reorder Level, and Discontinued status.
 - **Transactions** table records transaction details; Transaction ID, Date, Product ID, Quantity, Transaction Type (Purchase, Sale, or Damage), Unit Cost Price, Unit Sales Price, and Note (to describe the situation if Transaction Type is Damage).
+
 *Products* table (snippet):
 
 *Transactions* table (snippet):
