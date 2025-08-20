@@ -41,4 +41,4 @@ From the sample dataset:
 - Introduce **damage/loss tracking** for better cost accuracy.
 - Consider transitioning the system into **Power BI or SQL-based architecture** for scalability as transaction volume grows.
 
-#### Additional Project Images
+### Additional Project Images
