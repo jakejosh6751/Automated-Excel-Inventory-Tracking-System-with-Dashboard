@@ -4,9 +4,9 @@
 This project is an automated inventory tracking system built in Excel with VBA, Power Query, PowerPivot, Pivot tables, and dashboard. It streamlines the management of product purchases, sales, and stock levels. The system automatically updates KPIs, inventory status, and dashboard when new transactions are recorded. It is designed for small to medium-sized businesses to track inventory movement, monitor stock availability, and evaluate sales performance without relying on external software.
 
 ### Database Modelling
-Two *Excel formatted* tables are created using sheets as the database:
-- **Products** table defines product details; ProductID *(Primary Key)*, ProductName, Category, UnitCostPrice, UnitSalesPrice, ReorderLevel, and Discontinued *status*.
-- **Transactions** table records transaction details; TransactionID *(Primary Key)*, Date, ProductID *(Foreign Key to Products table)*, Quantity, TransactionType (Purchase, Sale, or Damage), and Note *(for remark, especially when TransactionType is Damage)*.
+The system uses a relational model. Two *Excel formatted* tables are created using sheets as the database:
+- **Products (Dimension)** table defines product details; ProductID *(Primary Key)*, ProductName, Category, UnitCostPrice, UnitSalesPrice, ReorderLevel, and Discontinued *status*.
+- **Transactions (Facts)** table records transaction details; TransactionID *(Primary Key)*, Date, ProductID *(Foreign Key to Products table)*, Quantity, TransactionType (Purchase, Sale, or Damage), and Note *(for remark, especially when TransactionType is Damage)*.
 
 Using **VLOOKUP**, UnitCostPrice and UnitSalesPrice are copied from the Products table to the Transactions table base on ProductID. This is to ease data modelling calculations.
 
@@ -34,7 +34,6 @@ A **Calendar** table is created in Power Query using **List.Dates** to cover the
 All three tables *(Products, Transactions, and Calendar)* are loaded to the Data Model (PowerPivot).
 
 ### Data Modelling
-The system uses a relational model connecting:
 - **Products Table** (dimension) → Product attributes.
 - **Transactions Table** (fact) → Purchases and sales.
 - **KPIs Table** (calculated fact table) → Net sales, inventory value, COGS, turnover, and ratios.
