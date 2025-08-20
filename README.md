@@ -23,6 +23,7 @@ The system features an **Excel UserForm** that simplifies recording new transact
 - **Note**: An optional text field, mainly used for recording remarks on damaged items.
 
 This user-friendly entry system ensures consistency, accuracy, and efficiency in updating inventory records.
+
 *Data Entry UserForm*:
 
 ### Data Extraction & Transformation
