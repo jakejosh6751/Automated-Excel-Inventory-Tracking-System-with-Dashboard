@@ -1,7 +1,7 @@
 # Automated Excel Inventory Tracking System with Dashboard
 
 ### About this project
-This project is an automated inventory tracking system built in Excel with VBA, Power Query, Power Pivot, Pivot tables, and dashboard. It streamlines the management of product purchases, sales, and stock levels. The system automatically updates KPIs, inventory status, and dashboard when new transactions are recorded. It is designed for small to medium-sized businesses to track inventory movement, monitor stock availability, and evaluate sales performance without relying on external software.
+This project is an automated inventory tracking system built in Excel with VBA, Power Query, PowerPivot, Pivot tables, and dashboard. It streamlines the management of product purchases, sales, and stock levels. The system automatically updates KPIs, inventory status, and dashboard when new transactions are recorded. It is designed for small to medium-sized businesses to track inventory movement, monitor stock availability, and evaluate sales performance without relying on external software.
 
 ### Database Modelling
 Two *Excel formatted* tables are created using sheets as the database:
@@ -31,14 +31,7 @@ Dataset from the Products and Transactions table are extracted into Power Query.
 
 A **Calendar** table is created in Power Query using **List.Dates** to cover the desired duration. In this case, *List.Dates(#date(2025, 1, 1), 365, #duration(1, 0, 0, 0))*. Additional columns *(Month, Month Name, Week of Year)* are added to enable date filters for months and weeks in visuals when needed.
 
-All three tables are loaded to the data model (not sheets).
-
-
-
-
-
-
-
+All three tables *(Products, Transactions, and Calendar)* are loaded to the Data Model (PowerPivot).
 
 ### Data Modelling
 The system uses a relational model connecting:
@@ -50,6 +43,13 @@ Relationships are maintained via **ProductID** as a key.
 
 #### Schema
 #### Measures
+
+
+
+
+
+
+
 
 ### Visualization
 The project includes an interactive Excel dashboard with the following pages:
