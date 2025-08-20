@@ -15,6 +15,12 @@ Using VLOOKUP, UnitCostPrice and UnitSalesPrice are copied from the Products tab
 *Transactions* table (snippet):
 
 ### Data Entry
+The system features an **Excel UserForm** that simplifies recording new transactions into the **Transactions** table. To reduce errors and speed up entry, key fields are automated and streamlined:
+- **Product Name**: Selected from a drop-down list of available products.
+- **Quantity**: Defaults to 1 in a numeric box, with scroll buttons to adjust up or down.
+- **Transaction Type**: Defaults to “Sale” (the most common transaction), with other options available such as Purchase or Damage.
+- **Date**: Automatically set to the current date through a VBA formula, with the option to override if necessary.
+- **Note**: An optional text field, mainly used for recording remarks on damaged items.
 
 ### Data Extraction & Transformation
 **Data transformation** is achieved through formulas, pivot tables, and macros that automatically:
