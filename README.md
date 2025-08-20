@@ -6,7 +6,7 @@ This project is an automated inventory tracking system built in Excel with VBA, 
 ### Database Modelling
 Two *Excel formatted* tables are created using sheets as the database:
 - **Products** table defines product details; ProductID *(Primary Key)*, ProductName, Category, UnitCostPrice, UnitSalesPrice, ReorderLevel, and Discontinued *status*.
-- **Transactions** table records transaction details; TransactionID *(Primary Key)*, Date, ProductID *(Foreign Key to Products table)*, Quantity, TransactionType (Purchase, Sale, or Damage), and Note *(to describe the situation if TransactionType is Damage)*.
+- **Transactions** table records transaction details; TransactionID *(Primary Key)*, Date, ProductID *(Foreign Key to Products table)*, Quantity, TransactionType (Purchase, Sale, or Damage), and Note *(for remark, especially when TransactionType is Damage)*.
 
 Using VLOOKUP, UnitCostPrice and UnitSalesPrice are copied from the Products table to the Transactions table base on ProductID. This is to ease data modelling calculations. 
 
