@@ -6,10 +6,10 @@ This project is an automated inventory tracking system built in Excel with macro
 - Products table defines product details such as product ID, name, category, unit cost price, unit sales price, reorder levels, and discontinued status.
 - Transactions table records purchases, sales, and other movement types with date, product, quantity, cost, and sales details.
 - Data transformation is achieved through formulas, pivot tables, and macros that automatically:
-  - - Match transactions to products.
-- [x] Update available stock based on purchases and sales.
-- [x] Compute cost of goods sold (COGS) and revenue.
-- [x] Refresh dashboards upon data entry.
+  - Match transactions to products.
+  - Update available stock based on purchases and sales.
+  - Compute cost of goods sold (COGS) and revenue.
+  - Refresh dashboards upon data entry.
 
 ### Data Modelling
 
