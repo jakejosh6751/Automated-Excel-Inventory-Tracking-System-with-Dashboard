@@ -34,15 +34,11 @@ A **Calendar** table is created in Power Query using **List.Dates** to cover the
 All three tables *(Products, Transactions, and Calendar)* are loaded to the Data Model (PowerPivot).
 
 ### Data Modelling
-- **Products Table** (dimension) → Product attributes.
-- **Transactions Table** (fact) → Purchases and sales.
-- **KPIs Table** (calculated fact table) → Net sales, inventory value, COGS, turnover, and ratios.
-
-Relationships are maintained via **ProductID** as a key.
+The data model adopts a star schema structure (the most efficient for a data model) comprising a single fact table (Transactions) related to two dimension tables (Products & Calendar). Relationships are maintained via **ProductID** (Primary Key for the Products table) and **Date** (Primary Key for the Calendar table).
 
 #### Schema
 #### Measures
-
+**KPIs Table** (calculated fact table) → Net sales, inventory value, COGS, turnover, and ratios.
 
 
 
