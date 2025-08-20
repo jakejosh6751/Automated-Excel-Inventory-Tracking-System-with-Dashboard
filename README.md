@@ -1,5 +1,7 @@
 # Automated Excel Inventory Tracking System with Dashboard
 
+*short navigation animation*:
+
 ### About this project
 This project is an automated inventory tracking system built in Excel with VBA, Power Query, PowerPivot, Pivot tables, and dashboard. It streamlines the management of product purchases, sales, and stock levels. The system automatically updates KPIs, inventory status, and dashboard when new transactions are recorded. It is designed for small to medium-sized businesses to track inventory movement, monitor stock availability, and evaluate sales performance without relying on external software.
 
@@ -36,24 +38,26 @@ All three tables *(Products, Transactions, and Calendar)* are loaded to the Data
 ### Data Modelling
 The data model adopts a star schema structure (the most efficient for a data model) comprising a single fact table (Transactions) related to two dimension tables (Products & Calendar). Relationships are maintained via **ProductID** (Primary Key for the Products table) and **Date** (Primary Key for the Calendar table).
 
-#### Schema
-#### Measures
-**KPIs Table** (calculated fact table) → Net sales, inventory value, COGS, turnover, and ratios.
+*Schema Diagram View*:
 
-
-
-
-
-
+Key measures were created as described in the metrics dictionary below;
 
 ### Visualization
 The project includes an interactive Excel dashboard with the following pages:
-1. **Inventory Overview** – Summary of stock availability, inventory value, and movement.
-2. **KPI Dashboard** – Tracks key metrics such as Net Sales, COGS, Inventory Turnover Ratio, and Inventory to Sales Ratio.
-3. **Top 10 Analysis** –
+1. **Inventory Dashboard** –
+   - **KPIs** – Tracks key metrics such as Net Sales, COGS, Inventory Turnover Ratio, and Inventory to Sales Ratio.
+   - **Top 10 Analysis** –
     - Products by revenue.
     - Products by stock value.
-4. **Monthly Sales Trend** – Quantity sold per month.
+   - **Monthly Sales Trend** – Quantity sold per month.
+
+2. **Inventory Overview** – Summary of stock availability, inventory value, and movement.....stock status
+
+
+
+
+
+
 
 ### Key Insights
 From the sample dataset:
