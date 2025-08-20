@@ -27,11 +27,18 @@ This user-friendly entry system ensures consistency, accuracy, and efficiency in
 *Data Entry UserForm*:
 
 ### Data Extraction & Transformation
-**Data transformation** is achieved through formulas, pivot tables, and macros that automatically:
-  - Match transactions to products.
-  - Update available stock based on purchases and sales.
-  - Compute cost of goods sold (COGS) and revenue.
-  - Refresh dashboards upon data entry.
+Dataset from the Products and Transactions table are extracted into Power Query. Data types are adjusted.
+
+A **Calendar** table is created in Power Query using **List.Dates** to cover the desired duration. In this case, *List.Dates(#date(2025, 1, 1), 365, #duration(1, 0, 0, 0))*. Additional columns *(Month, Month Name, Week of Year)* are added to enable date filters for months and weeks in visuals when needed.
+
+All three tables are loaded to the data model (not sheets).
+
+
+
+
+
+
+
 
 ### Data Modelling
 The system uses a relational model connecting:
