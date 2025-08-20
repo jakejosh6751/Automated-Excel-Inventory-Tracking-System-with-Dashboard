@@ -24,12 +24,16 @@ Relationships are maintained via **ProductID** as a key.
 The project includes an interactive Excel dashboard with the following pages:
 1. **Inventory Overview** – Summary of stock availability, inventory value, and movement.
 2. **KPI Dashboard** – Tracks key metrics such as Net Sales, COGS, Inventory Turnover Ratio, and Inventory to Sales Ratio.
-**3. Top 10 Analysis** –
+3. **Top 10 Analysis** –
     - Products by revenue.
     - Products by stock value.
-**4. Monthly Sales Trend** – Quantity sold per month.
+4. **Monthly Sales Trend** – Quantity sold per month.
 
 ### Key Insights
+From the sample dataset:
+- Some products like Cheddar Crackers and Deodorant generate high sales revenue but also tie up significant stock value.
+- Inventory Turnover Ratios range between 1.0 – 1.2, indicating that stock is moving but at a moderate pace.
+- Several products maintain high available stock relative to sales, suggesting potential overstocking.
 
 ### Recommendation
 
