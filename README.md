@@ -4,6 +4,8 @@
 This project is an automated inventory tracking system built in Excel with VBA, Power Query, Power Pivot, Pivot tables, and dashboard. It streamlines the management of product purchases, sales, and stock levels. The system automatically updates KPIs, inventory status, and dashboard when new transactions are recorded. It is designed for small to medium-sized businesses to track inventory movement, monitor stock availability, and evaluate sales performance without relying on external software.
 
 ### Data Extraction & Transformation
+Two *Excel formatted* tables are created
+
 - **Products table** defines product details such as product ID, name, category, unit cost price, unit sales price, reorder levels, and discontinued status.
 - **Transactions table** records purchases, sales, and other movement types with date, product, quantity, cost, and sales details.
 - **Data transformation** is achieved through formulas, pivot tables, and macros that automatically:
