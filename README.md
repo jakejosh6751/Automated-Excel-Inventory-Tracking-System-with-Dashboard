@@ -31,10 +31,14 @@ The project includes an interactive Excel dashboard with the following pages:
 
 ### Key Insights
 From the sample dataset:
-- Some products like Cheddar Crackers and Deodorant generate high sales revenue but also tie up significant stock value.
-- Inventory Turnover Ratios range between 1.0 – 1.2, indicating that stock is moving but at a moderate pace.
-- Several products maintain high available stock relative to sales, suggesting potential overstocking.
+- Some products like **Cheddar Crackers** and **Deodorant** generate high sales revenue but also tie up significant stock value.
+- Inventory Turnover Ratios range between **1.0 – 1.2**, indicating that stock is moving but at a moderate pace.
+- Several products maintain high **available stock relative to sales**, suggesting potential overstocking.
 
 ### Recommendation
+- **Optimize stock levels** by reducing over-purchased items and prioritising fast-moving products.
+- **Reorder point adjustments** should be set based on actual sales velocity instead of fixed thresholds.
+- Introduce **damage/loss tracking** for better cost accuracy.
+- Consider transitioning the system into **Power BI or SQL-based architecture** for scalability as transaction volume grows.
 
 #### Additional Project Images
