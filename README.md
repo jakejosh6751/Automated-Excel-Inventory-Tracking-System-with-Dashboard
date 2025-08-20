@@ -17,7 +17,6 @@ The system uses a relational model connecting:
 - **Products Table** (dimension) → Product attributes.
 - **Transactions Table** (fact) → Purchases and sales.
 - **KPIs Table** (calculated fact table) → Net sales, inventory value, COGS, turnover, and ratios.
-
 Relationships are maintained via **ProductID** as a key.
 
 ### Visualization
