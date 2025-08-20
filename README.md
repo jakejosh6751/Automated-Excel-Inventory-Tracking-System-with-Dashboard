@@ -21,6 +21,7 @@ The system features an **Excel UserForm** that simplifies recording new transact
 - **Transaction Type**: Defaults to “Sale” (the most common transaction), with other options available such as Purchase or Damage.
 - **Date**: Automatically set to the current date through a VBA formula, with the option to override if necessary.
 - **Note**: An optional text field, mainly used for recording remarks on damaged items.
+
 This user-friendly entry system ensures consistency, accuracy, and efficiency in updating inventory records.
 
 ### Data Extraction & Transformation
