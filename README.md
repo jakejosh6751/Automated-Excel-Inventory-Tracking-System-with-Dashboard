@@ -7,14 +7,14 @@ This project is an automated inventory tracking system built in Excel with VBA, 
 
 ### Database Modelling
 The system uses a relational model. Two *Excel formatted* tables are created using sheets as the database:
-- **Products (Dimension)** table defines product details; ProductID *(Primary Key)*, ProductName, Category, UnitCostPrice, UnitSalesPrice, ReorderLevel, and Discontinued *status*.
-- **Transactions (Facts)** table records transaction details; TransactionID *(Primary Key)*, Date, ProductID *(Foreign Key to Products table)*, Quantity, TransactionType (Purchase, Sale, or Damage), and Note *(for remark, especially when TransactionType is Damage)*.
+- **Products (Dimension)** table defines product details;
+- **Transactions (Facts)** table records transaction details.
+
+Table attributes are described in the *Data Dictionary* below:
+![Data Dictionary.png](https://github.com/jakejosh6751/Automated-Excel-Inventory-Tracking-System-with-Dashboard/blob/main/Data%20Dictionary.png)
 
 Using **VLOOKUP**, UnitCostPrice and UnitSalesPrice are copied from the Products table to the Transactions table base on ProductID. This is to ease data modelling calculations.
 
-.... as described in the *Data Dictionary* below;
-
-*Data Dictionary*:
 
 ### Data Entry
 The system features an **Excel UserForm** that simplifies recording new transactions into the **Transactions** table. To reduce errors and speed up entry, key fields are automated and streamlined:
