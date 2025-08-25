@@ -10,7 +10,7 @@ The system uses a relational model. Two *Excel formatted* tables are created usi
 - **Products (Dimension)** table defines product details;
 - **Transactions (Facts)** table records transaction details.
 
-Table attributes are described in the *Data Dictionary* below:
+*Data Dictionary*:
 ![Data Dictionary.png](https://github.com/jakejosh6751/Automated-Excel-Inventory-Tracking-System-with-Dashboard/blob/main/Data%20Dictionary.png)
 
 Using **VLOOKUP**, UnitCostPrice and UnitSalesPrice are copied from the Products table to the Transactions table base on ProductID. This is to ease data modelling calculations.
