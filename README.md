@@ -92,16 +92,47 @@ The project features an **Inventory Overview Sheet** highlighting key metrics wi
   - Toothpaste (₦139,400) and Protein Bars (₦85,500) are currently stocked out, resulting in turnover ratios of zero.
   - This does not mean inefficiency - rather, it highlights lost revenue opportunities due to inadequate replenishment.
 
-
-
-
-
-
-
-
+#### 5. Category-Level Observations
+- Toiletries (Deodorant, Toothpaste, Soap) dominate sales revenue, showing consistent demand.
+- Snacks (Cheddar Crackers, Potato Chips, Pop Corn) carry large stock values but have relatively slower turnover, indicating potential over-investment.
+- Beverages (Orange Juice, Cola Drink, Iced Coffee) perform steadily with mid-level stock and revenue contributions.
 
 ### Recommendation
+#### 1. Replenish High-Demand Products
+- Prioritize restocking Toothpaste and Protein Bars immediately to recover lost sales opportunities.
+- Increase safety stock levels for Chocolate Cookies and Deodorant to avoid frequent stockouts.
+
+#### 2. Optimize Overstocked Items
+- Review purchase volumes for Cheddar Crackers, Potato Chips, and Sponges, which have high stock but low turnover.
+- Consider promotions, bundle offers, or discounts to accelerate movement of slow stock.
+
+#### 3. Align Inventory with Seasonality
+- Prepare for demand spikes in Q2 (Apr–Jun) by stocking fast movers ahead of time.
+- Use historical monthly sales data to forecast demand more accurately.
+
+#### 4. Revenue-Focused Stock Allocation
+- Shift working capital toward core products (Deodorant, Toothpaste, Chocolate Cookies) that generate high returns and show strong demand.
+- Avoid tying up capital in products with low sales velocity unless supported by promotional strategies.
+
+#### 5. Strengthen Stock Monitoring & Alerts
+- Implement automated stock alerts for items nearing reorder levels.
+- Regularly reconcile damaged vs available stock to improve accuracy in demand forecasting.
+
+This analysis demonstrates the ability to connect inventory data with business performance - uncovering stock inefficiencies, missed sales opportunities, and demand seasonality. It highlights how data-driven insights can improve revenue, optimize stockholding, and reduce costs.
+
+
+--
+
+
+
+
 - **Optimize stock levels** by reducing over-purchased items and prioritising fast-moving products.
 - **Reorder point adjustments** should be set based on actual sales velocity instead of fixed thresholds.
 - Introduce **damage/loss tracking** for better cost accuracy.
 - Consider transitioning the system into **Power BI or SQL-based architecture** for scalability as transaction volume grows.
+
+
+
+
+
+
