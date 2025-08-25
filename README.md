@@ -41,9 +41,11 @@ All three tables *(Products, Transactions, and Calendar)* are loaded to the Data
 ### Data Modelling
 The data model adopts a star schema structure (the most efficient for a data model) comprising a single fact table (Transactions) related to two dimension tables (Products & Calendar). Relationships are maintained via **ProductID** (Primary Key for the Products table) and **Date** (Primary Key for the Calendar table).
 
-*Schema Diagram View*:
+*Schema Diagram*:
+![]()
 
-Key measures were created as described in the metrics dictionary below;
+*Key Measures*:
+![]()
 
 ### Visualization
 The project includes an interactive Excel dashboard with the following pages:
