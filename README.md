@@ -1,15 +1,18 @@
 # Automated Excel Inventory Tracking System with Dashboard
 ![Inventory Management Dashboard.jpg](https://github.com/jakejosh6751/Automated-Excel-Inventory-Tracking-System-with-Dashboard/blob/main/Inventory%20Management%20Dashboard.jpg)
 *short navigation animation*:
+___
 
 ### About this project
 This project is an automated inventory tracking system built in Excel with VBA, Power Query, PowerPivot, Pivot tables, and dashboard. It streamlines the management of product purchases, sales, and stock levels. The system automatically updates KPIs, inventory status, and dashboard when new transactions are recorded. It is designed for small to medium-sized businesses to track inventory movement, monitor stock availability, and evaluate sales performance without relying on external software.
+___
 
 ### Database Modelling
 The system uses a relational model. Two *Excel formatted* tables are created using sheets as the database:
 - **Products (Dim)** defines product details;
 - **Transactions (Facts)** records transaction details;
 - **Calendar (Dim)** holds daily calendar dates.
+___
 
 *Data Dictionary*:
 ![Data Dictionary.png](https://github.com/jakejosh6751/Automated-Excel-Inventory-Tracking-System-with-Dashboard/blob/main/Data%20Dictionary.png)
