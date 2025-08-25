@@ -42,10 +42,10 @@ All three tables *(Products, Transactions, and Calendar)* are loaded to the Data
 The data model adopts a star schema structure (the most efficient for a data model) comprising a single fact table (Transactions) related to two dimension tables (Products & Calendar). Relationships are maintained via **ProductID** (Primary Key for the Products table) and **Date** (Primary Key for the Calendar table).
 
 *Schema Diagram*:
-![]()
+![Schema Diagram.png](https://github.com/jakejosh6751/Automated-Excel-Inventory-Tracking-System-with-Dashboard/blob/main/Schema%20Diagram.png)
 
 *Key Measures*:
-![]()
+![Key Metrics.png](https://github.com/jakejosh6751/Automated-Excel-Inventory-Tracking-System-with-Dashboard/blob/main/Key%20Metrics.png)
 
 ### Visualization
 The project includes an interactive Excel dashboard with the following pages:
