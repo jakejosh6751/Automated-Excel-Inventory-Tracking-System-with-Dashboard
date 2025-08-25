@@ -12,12 +12,12 @@ The system uses a relational model. Two *Excel formatted* tables are created usi
 - **Products (Dim)** defines product details;
 - **Transactions (Facts)** records transaction details;
 - **Calendar (Dim)** holds daily calendar dates.
-___
 
 *Data Dictionary*:
 ![Data Dictionary.png](https://github.com/jakejosh6751/Automated-Excel-Inventory-Tracking-System-with-Dashboard/blob/main/Data%20Dictionary.png)
 
 Using **VLOOKUP**, UnitCostPrice and UnitSalesPrice are copied from the Products table to the Transactions table base on ProductID. This is to ease data modelling calculations.
+___
 
 ### Data Entry
 The system features an **Excel UserForm** that simplifies recording new transactions into the **Transactions** table.
@@ -33,6 +33,7 @@ To reduce errors and speed up entry, key fields are automated and streamlined:
 - **Note**: An optional text field, mainly used for recording remarks on damaged items.
 
 This user-friendly entry system ensures consistency, accuracy, and efficiency in updating inventory records.
+___
 
 ### Data Extraction & Transformation
 Dataset from the Products and Transactions table are extracted into Power Query. Data types are adjusted.
@@ -40,6 +41,7 @@ Dataset from the Products and Transactions table are extracted into Power Query.
 A **Calendar** table is created in Power Query using **List.Dates** to cover the desired duration. In this case, *List.Dates(#date(2025, 1, 1), 365, #duration(1, 0, 0, 0))*. Additional columns *(Month, Month Name, Week of Year)* are added to enable date filters for months and weeks in visuals when needed.
 
 All three tables *(Products, Transactions, and Calendar)* are loaded to the Data Model (PowerPivot).
+___
 
 ### Data Modelling
 The data model adopts a star schema structure (the most efficient for a data model) comprising a single fact table (Transactions) related to two dimension tables (Products & Calendar). Relationships are maintained via **ProductID** (Primary Key for the Products table) and **Date** (Primary Key for the Calendar table).
@@ -49,6 +51,7 @@ The data model adopts a star schema structure (the most efficient for a data mod
 
 *Key Measures*:
 ![Key Metrics.png](https://github.com/jakejosh6751/Automated-Excel-Inventory-Tracking-System-with-Dashboard/blob/main/Key%20Metrics.png)
+___
 
 ### Visualization
 The project features an **Inventory Overview Sheet** highlighting key metrics with colour formatting to emphasize important insights, and an interactive **Inventory Dashboard** with slicers (filters) to explore data by months, product categories, and products.
@@ -58,6 +61,7 @@ The project features an **Inventory Overview Sheet** highlighting key metrics wi
 
 *Inventory Dashboard*:
 ![Inventory Management Dashboard.jpg](https://github.com/jakejosh6751/Automated-Excel-Inventory-Tracking-System-with-Dashboard/blob/main/Inventory%20Management%20Dashboard.jpg)
+___
 
 ### Key Insights
 #### 1. Overall Inventory & Sales Performance
@@ -99,6 +103,7 @@ The project features an **Inventory Overview Sheet** highlighting key metrics wi
 - Toiletries (Deodorant, Toothpaste, Soap) dominate sales revenue, showing consistent demand.
 - Snacks (Cheddar Crackers, Potato Chips, Pop Corn) carry large stock values but have relatively slower turnover, indicating potential over-investment.
 - Beverages (Orange Juice, Cola Drink, Iced Coffee) perform steadily with mid-level stock and revenue contributions.
+___
 
 ### Recommendation
 #### 1. Replenish High-Demand Products
@@ -120,14 +125,10 @@ The project features an **Inventory Overview Sheet** highlighting key metrics wi
 #### 5. Strengthen Stock Monitoring & Alerts
 - Implement automated stock alerts for items nearing reorder levels.
 - Regularly reconcile damaged vs available stock to improve accuracy in demand forecasting.
-
-This analysis demonstrates the ability to connect inventory data with business performance - uncovering stock inefficiencies, missed sales opportunities, and demand seasonality. It highlights how data-driven insights can improve revenue, optimize stockholding, and reduce costs.
-
-
 ___
 
-
-
+This analysis demonstrates the ability to connect inventory data with business performance - uncovering stock inefficiencies, missed sales opportunities, and demand seasonality. It highlights how data-driven insights can improve revenue, optimize stockholding, and reduce costs.
+___
 
 - **Optimize stock levels** by reducing over-purchased items and prioritising fast-moving products.
 - **Reorder point adjustments** should be set based on actual sales velocity instead of fixed thresholds.
