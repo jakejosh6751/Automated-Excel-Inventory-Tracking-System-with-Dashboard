@@ -72,11 +72,14 @@ The project features an **Inventory Overview Sheet** highlighting key metrics wi
 - Fast-moving items with low stock:
   - Chocolate Cookies (Turnover 14.2, Stock 10)
   - Deodorant (Turnover 8.77, Stock 13)
+
 Both are strong sellers at risk of stockouts, requiring close monitoring.
+
   - Slow-moving items with high stock:
     - Cheddar Crackers (Stock 31, Turnover 2.45)
     - Potato Chips (Stock 36, Turnover 2.41)
     - Sponge (Stock 33, Turnover 2.06)
+
 These products tie up capital in inventory without generating proportional sales, highlighting potential overstocking.
 
 
