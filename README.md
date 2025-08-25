@@ -16,7 +16,12 @@ Table attributes are described in the *Data Dictionary* below:
 Using **VLOOKUP**, UnitCostPrice and UnitSalesPrice are copied from the Products table to the Transactions table base on ProductID. This is to ease data modelling calculations.
 
 ### Data Entry
-The system features an **Excel UserForm** that simplifies recording new transactions into the **Transactions** table. To reduce errors and speed up entry, key fields are automated and streamlined:
+The system features an **Excel UserForm** that simplifies recording new transactions into the **Transactions** table.
+
+*Data Entry UserForm*:
+![Data Entry UserForm.png](https://github.com/jakejosh6751/Automated-Excel-Inventory-Tracking-System-with-Dashboard/blob/main/Data%20Entry%20UserForm.png)
+
+To reduce errors and speed up entry, key fields are automated and streamlined:
 - **Product Name**: Selected from a drop-down list of available products.
 - **Quantity**: Defaults to 1 in a numeric box, with spin buttons to adjust up or down.
 - **Transaction Type**: Defaults to “Sale” (the most common transaction), with other options available such as Purchase or Damage.
@@ -24,9 +29,6 @@ The system features an **Excel UserForm** that simplifies recording new transact
 - **Note**: An optional text field, mainly used for recording remarks on damaged items.
 
 This user-friendly entry system ensures consistency, accuracy, and efficiency in updating inventory records.
-
-*Data Entry UserForm*:
-![Data Entry UserForm.png](https://github.com/jakejosh6751/Automated-Excel-Inventory-Tracking-System-with-Dashboard/blob/main/Data%20Entry%20UserForm.png)
 
 ### Data Extraction & Transformation
 Dataset from the Products and Transactions table are extracted into Power Query. Data types are adjusted.
