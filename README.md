@@ -72,17 +72,23 @@ The project features an **Inventory Overview Sheet** highlighting key metrics wi
 - Fast-moving items with low stock:
   - Chocolate Cookies (Turnover 14.2, Stock 10)
   - Deodorant (Turnover 8.77, Stock 13)
-
-    > Both are strong sellers at risk of stockouts, requiring close monitoring.
+> Both are strong sellers at risk of stockouts, requiring close monitoring.
 
 - Slow-moving items with high stock:
   - Cheddar Crackers (Stock 31, Turnover 2.45)
   - Potato Chips (Stock 36, Turnover 2.41)
   - Sponge (Stock 33, Turnover 2.06)
+> These products tie up capital in inventory without generating proportional sales, highlighting potential overstocking.
 
-    > These products tie up capital in inventory without generating proportional sales, highlighting potential overstocking.
+#### 4. Revenue Contribution vs Stock Availability
+- Top revenue drivers:
+  - Deodorant (₦250,800) and Cheddar Crackers (₦144,400) are the biggest contributors.
+  - Deodorant balances strong revenue with a healthy turnover, making it a core product.
+  - Cheddar Crackers, however, show high stock investment but weaker turnover, suggesting inefficiency in inventory allocation.
 
-
+- Out-of-stock but high-demand items:
+  - Toothpaste (₦139,400) and Protein Bars (₦85,500) are currently stocked out, resulting in turnover ratios of zero.
+  - This does not mean inefficiency — rather, it highlights lost revenue opportunities due to inadequate replenishment.
 
 
 
