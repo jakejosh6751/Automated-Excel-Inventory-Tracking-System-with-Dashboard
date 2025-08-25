@@ -63,10 +63,10 @@ The project features an **Inventory Overview Sheet** highlighting key metrics wi
 - The inventory turnover ratio is 4.95, showing that stock is being cycled moderately — about five times in the period.
 
 #### 2. Sales Trends & Seasonality
-    - Sales quantities reveal clear seasonal patterns.
-      - Demand peaks in April (189 units) and June (186 units).
-      - Lowest activity occurred in February (74 units).
-    - This suggests Q2 (Apr–Jun) is a high-demand period that requires stronger inventory readiness.
+- Sales quantities reveal clear seasonal patterns.
+  - Demand peaks in April (189 units) and June (186 units).
+  - Lowest activity occurred in February (74 units).
+- This suggests Q2 (Apr–Jun) is a high-demand period that requires stronger inventory readiness.
 
 
 
