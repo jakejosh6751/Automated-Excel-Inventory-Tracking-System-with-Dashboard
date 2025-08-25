@@ -121,7 +121,7 @@ The project features an **Inventory Overview Sheet** highlighting key metrics wi
 This analysis demonstrates the ability to connect inventory data with business performance - uncovering stock inefficiencies, missed sales opportunities, and demand seasonality. It highlights how data-driven insights can improve revenue, optimize stockholding, and reduce costs.
 
 
-__
+___
 
 
 
