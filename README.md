@@ -61,6 +61,7 @@ The project features an **Inventory Overview Sheet** highlighting key metrics wi
     - The business currently holds 334 units in stock worth ₦336,500.
     - Across the period, 237 sales transactions generated ₦953,710 in revenue.
     - The inventory turnover ratio is 4.95, showing that stock is being cycled moderately — about five times in the period.
+    
 2. Sales Trends & Seasonality
     - Sales quantities reveal clear seasonal patterns.
       - Demand peaks in April (189 units) and June (186 units).
