@@ -48,16 +48,13 @@ The data model adopts a star schema structure (the most efficient for a data mod
 ![Key Metrics.png](https://github.com/jakejosh6751/Automated-Excel-Inventory-Tracking-System-with-Dashboard/blob/main/Key%20Metrics.png)
 
 ### Visualization
-The project includes an interactive Excel dashboard with the following pages:
-1. **Inventory Dashboard** –
-   - **KPIs** – Tracks key metrics such as Net Sales, COGS, Inventory Turnover Ratio, and Inventory to Sales Ratio.
-   - **Top 10 Analysis** –
-       - Products by revenue.
-       - Products by stock value.
-   - **Monthly Sales Trend** – Quantity sold per month.
+The project features an **Inventory Overview Sheet** and an interactive **Inventory Dashboard** highlighting key metrics, with colour formatting to emphasze important insights:
 
-2. **Inventory Overview** – Summary of stock availability, inventory value, and movement.....stock status
+*Inventory Overview Sheet*:
+![]()
 
+*Inventory Dashboard*:
+![]()
 
 
 
