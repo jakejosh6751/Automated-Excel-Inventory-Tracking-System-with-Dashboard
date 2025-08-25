@@ -7,8 +7,9 @@ This project is an automated inventory tracking system built in Excel with VBA, 
 
 ### Database Modelling
 The system uses a relational model. Two *Excel formatted* tables are created using sheets as the database:
-- **Products (Dimension)** table defines product details;
-- **Transactions (Facts)** table records transaction details.
+- **Products (Dim)** defines product details;
+- **Transactions (Facts)** records transaction details.
+- **Calendar (Dim)** holds daily calendar dates.
 
 *Data Dictionary*:
 ![Data Dictionary.png](https://github.com/jakejosh6751/Automated-Excel-Inventory-Tracking-System-with-Dashboard/blob/main/Data%20Dictionary.png)
