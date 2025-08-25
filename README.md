@@ -60,7 +60,7 @@ The project features an **Inventory Overview Sheet** highlighting key metrics wi
 #### 1. Overall Inventory & Sales Performance
 - The business currently holds 334 units in stock worth ₦336,500.
 - Across the period, 237 sales transactions generated ₦953,710 in revenue.
-- The inventory turnover ratio is 4.95, showing that stock is being cycled moderately — about five times in the period.
+- The inventory turnover ratio is 4.95, showing that stock is being cycled moderately - about five times in the period.
 
 #### 2. Sales Trends & Seasonality
 - Sales quantities reveal clear seasonal patterns.
@@ -90,7 +90,7 @@ The project features an **Inventory Overview Sheet** highlighting key metrics wi
 
 - Out-of-stock but high-demand items:
   - Toothpaste (₦139,400) and Protein Bars (₦85,500) are currently stocked out, resulting in turnover ratios of zero.
-  - This does not mean inefficiency — rather, it highlights lost revenue opportunities due to inadequate replenishment.
+  - This does not mean inefficiency - rather, it highlights lost revenue opportunities due to inadequate replenishment.
 
 
 
