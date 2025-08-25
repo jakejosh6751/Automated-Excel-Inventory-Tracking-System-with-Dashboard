@@ -57,11 +57,10 @@ The project features an **Inventory Overview Sheet** highlighting key metrics wi
 ![Inventory Management Dashboard.jpg](https://github.com/jakejosh6751/Automated-Excel-Inventory-Tracking-System-with-Dashboard/blob/main/Inventory%20Management%20Dashboard.jpg)
 
 ### Key Insights
-**1.** Overall Inventory & Sales Performance
+#### 1. Overall Inventory & Sales Performance
     - The business currently holds 334 units in stock worth ₦336,500.
     - Across the period, 237 sales transactions generated ₦953,710 in revenue.
     - The inventory turnover ratio is 4.95, showing that stock is being cycled moderately — about five times in the period.
-    
 2. Sales Trends & Seasonality
     - Sales quantities reveal clear seasonal patterns.
       - Demand peaks in April (189 units) and June (186 units).
