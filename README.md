@@ -107,28 +107,28 @@ ___
 
 ### Recommendation
 #### 1. Replenish High-Demand Products
-- Prioritize restocking Toothpaste and Protein Bars immediately to recover lost sales opportunities.
-- Increase safety stock levels for Chocolate Cookies and Deodorant to avoid frequent stockouts.
+- Prioritize restocking **Toothpaste and Protein Bars** immediately to recover lost sales opportunities.
+- Increase safety stock levels for **Chocolate Cookies and Deodorant** to avoid frequent stockouts.
 
 #### 2. Optimize Overstocked Items
-- Review purchase volumes for Cheddar Crackers, Potato Chips, and Sponges, which have high stock but low turnover.
-- Consider promotions, bundle offers, or discounts to accelerate movement of slow stock.
+- Review purchase volumes for **Cheddar Crackers, Potato Chips, and Sponges**, which have high stock but low turnover.
+- Consider **promotions, bundle offers, or discounts** to accelerate movement of slow stock.
 
 #### 3. Align Inventory with Seasonality
-- Prepare for demand spikes in Q2 (Apr–Jun) by stocking fast movers ahead of time.
-- Use historical monthly sales data to forecast demand more accurately.
+- Prepare for **demand spikes in Q2 (Apr–Jun)** by stocking fast movers ahead of time.
+- Use **historical monthly sales data** to forecast demand more accurately.
 
 #### 4. Revenue-Focused Stock Allocation
-- Shift working capital toward core products (Deodorant, Toothpaste, Chocolate Cookies) that generate high returns and show strong demand.
-- Avoid tying up capital in products with low sales velocity unless supported by promotional strategies.
+- Shift working capital toward **core products (Deodorant, Toothpaste, Chocolate Cookies)** that generate high returns and show strong demand.
+- Avoid tying up capital in products with **low sales velocity** unless supported by promotional strategies.
 
 #### 5. Strengthen Stock Monitoring & Alerts
-- Implement automated stock alerts for items nearing reorder levels.
-- Regularly reconcile damaged vs available stock to improve accuracy in demand forecasting.
+- Implement **automated stock alerts** for items nearing reorder levels.
+- Regularly reconcile **damaged vs available stock** to improve accuracy in demand forecasting.
 ___
 
 ### Why This Analysis Matters: 
-> This analysis demonstrates the ability to connect inventory data with business performance - uncovering stock inefficiencies, missed sales opportunities, and demand seasonality. It highlights how data-driven insights can improve revenue, optimize stockholding, and reduce costs.
+> This analysis demonstrates the ability to **connect inventory data with business performance** - uncovering stock inefficiencies, missed sales opportunities, and demand seasonality. It highlights how data-driven insights can **improve revenue, optimize stockholding, and reduce costs**.
 ___
 
 - **Optimize stock levels** by reducing over-purchased items and prioritising fast-moving products.
