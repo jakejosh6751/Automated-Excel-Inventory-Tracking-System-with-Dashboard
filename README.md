@@ -64,18 +64,7 @@ The project features an **Inventory Overview Sheet** highlighting key metrics wi
 ___
 
 ### Key Insights
-#### 1. Overall Inventory & Sales Performance
-- The business currently holds **334 units in stock** worth **₦336,500**.
-- Across the period, **237 sales transactions** generated **₦953,710 in revenue**.
-- The **inventory turnover ratio is 4.95**, showing that stock is being cycled moderately - about five times in the period.
-
-#### 2. Sales Trends & Seasonality
-- Sales quantities reveal clear **seasonal patterns**.
-  - Demand peaks in **April (189 units)** and **June (186 units)**.
-  - Lowest activity occurred in **February (74 units)**.
-- This suggests **Q2 (Apr–Jun)** is a high-demand period that requires stronger inventory readiness.
-
-#### 3. Turnover Ratio vs Available Stock
+#### 1. Turnover Ratio vs Available Stock
 - Fast-moving items with low stock:
   - **Chocolate Cookies** (Turnover 14.2, Stock 10)
   - **Deodorant** (Turnover 8.77, Stock 13)
@@ -89,7 +78,13 @@ ___
 
     > *These products tie up capital in inventory without generating proportional sales, highlighting potential overstocking.*
 
-#### 4. Revenue Contribution vs Stock Availability
+#### 2. Sales Trends & Seasonality
+- Sales quantities reveal clear **seasonal patterns**.
+  - Demand peaks in **April (189 units)** and **June (186 units)**.
+  - Lowest activity occurred in **February (74 units)**.
+- This suggests **Q2 (Apr–Jun)** is a high-demand period that requires stronger inventory readiness.
+
+#### 3. Revenue Contribution vs Stock Availability
 - Top revenue drivers:
   - **Deodorant (₦250,800)** and **Cheddar Crackers (₦144,400)** are the biggest contributors.
   - Deodorant balances **strong revenue** with a **healthy turnover**, making it a core product.
@@ -99,10 +94,15 @@ ___
   - **Toothpaste (₦139,400)** and **Protein Bars (₦85,500)** are **currently stocked out**, resulting in **turnover ratios of zero**.
   - This does not mean inefficiency - rather, it highlights **lost revenue opportunities** due to inadequate replenishment.
 
-#### 5. Category-Level Observations
+#### 4. Category-Level Observations
 - **Toiletries** (Deodorant, Toothpaste, Soap) dominate sales revenue, showing **consistent demand**.
 - **Snacks** (Cheddar Crackers, Potato Chips, Pop Corn) carry **large stock values** but have relatively slower turnover, indicating **potential over-investment**.
 - **Beverages** (Orange Juice, Cola Drink, Iced Coffee) perform steadily with mid-level stock and revenue contributions.
+
+#### 5. Overall Inventory & Sales Performance
+- The business currently holds **334 units in stock** worth **₦336,500**.
+- Across the period, **237 sales transactions** generated **₦953,710 in revenue**.
+- The **inventory turnover ratio is 4.95**, showing that stock is being cycled moderately - about five times in the period.
 ___
 
 ### Recommendation
