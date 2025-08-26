@@ -65,29 +65,29 @@ ___
 
 ### Key Insights
 #### 1. Overall Inventory & Sales Performance
-- The business currently holds 334 units in stock worth ₦336,500.
-- Across the period, 237 sales transactions generated ₦953,710 in revenue.
-- The inventory turnover ratio is 4.95, showing that stock is being cycled moderately - about five times in the period.
+- The business currently holds **334 units in stock** worth **₦336,500**.
+- Across the period, **237 sales transactions** generated **₦953,710 in revenue**.
+- The **inventory turnover ratio is 4.95**, showing that stock is being cycled moderately - about five times in the period.
 
 #### 2. Sales Trends & Seasonality
-- Sales quantities reveal clear seasonal patterns.
-  - Demand peaks in April (189 units) and June (186 units).
-  - Lowest activity occurred in February (74 units).
-- This suggests Q2 (Apr–Jun) is a high-demand period that requires stronger inventory readiness.
+- Sales quantities reveal clear **seasonal patterns**.
+  - Demand peaks in **April (189 units)** and **June (186 units)**.
+  - Lowest activity occurred in **February (74 units)**.
+- This suggests **Q2 (Apr–Jun)** is a high-demand period that requires stronger inventory readiness.
 
 #### 3. Turnover Ratio vs Available Stock
 - Fast-moving items with low stock:
-  - Chocolate Cookies (Turnover 14.2, Stock 10)
-  - Deodorant (Turnover 8.77, Stock 13)
+  - **Chocolate Cookies** (Turnover 14.2, Stock 10)
+  - **Deodorant** (Turnover 8.77, Stock 13)
 
-    > Both are strong sellers at risk of stockouts, requiring close monitoring.
+    > *Both are strong sellers at risk of stockouts, requiring close monitoring.*
 
 - Slow-moving items with high stock:
-  - Cheddar Crackers (Stock 31, Turnover 2.45)
-  - Potato Chips (Stock 36, Turnover 2.41)
-  - Sponge (Stock 33, Turnover 2.06)
+  - **Cheddar Crackers** (Stock 31, Turnover 2.45)
+  - **Potato Chips** (Stock 36, Turnover 2.41)
+  - **Sponge** (Stock 33, Turnover 2.06)
 
-    > These products tie up capital in inventory without generating proportional sales, highlighting potential overstocking.
+    > *These products tie up capital in inventory without generating proportional sales, highlighting potential overstocking.*
 
 #### 4. Revenue Contribution vs Stock Availability
 - Top revenue drivers:
@@ -127,7 +127,7 @@ ___
 - Regularly reconcile damaged vs available stock to improve accuracy in demand forecasting.
 ___
 
-### Why This Analysis Matters
+### Why This Analysis Matters: 
 > This analysis demonstrates the ability to connect inventory data with business performance - uncovering stock inefficiencies, missed sales opportunities, and demand seasonality. It highlights how data-driven insights can improve revenue, optimize stockholding, and reduce costs.
 ___
 
