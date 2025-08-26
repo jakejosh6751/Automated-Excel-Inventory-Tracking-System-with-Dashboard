@@ -91,18 +91,18 @@ ___
 
 #### 4. Revenue Contribution vs Stock Availability
 - Top revenue drivers:
-  - Deodorant (₦250,800) and Cheddar Crackers (₦144,400) are the biggest contributors.
-  - Deodorant balances strong revenue with a healthy turnover, making it a core product.
-  - Cheddar Crackers, however, show high stock investment but weaker turnover, suggesting inefficiency in inventory allocation.
+  - **Deodorant (₦250,800)** and **Cheddar Crackers (₦144,400)** are the biggest contributors.
+  - Deodorant balances **strong revenue** with a **healthy turnover**, making it a core product.
+  - Cheddar Crackers, however, show **high stock investment** but **weaker turnover**, suggesting inefficiency in inventory allocation.
 
 - Out-of-stock but high-demand items:
-  - Toothpaste (₦139,400) and Protein Bars (₦85,500) are currently stocked out, resulting in turnover ratios of zero.
-  - This does not mean inefficiency - rather, it highlights lost revenue opportunities due to inadequate replenishment.
+  - **Toothpaste (₦139,400)** and **Protein Bars (₦85,500)** are **currently stocked out**, resulting in **turnover ratios of zero**.
+  - This does not mean inefficiency - rather, it highlights **lost revenue opportunities** due to inadequate replenishment.
 
 #### 5. Category-Level Observations
-- Toiletries (Deodorant, Toothpaste, Soap) dominate sales revenue, showing consistent demand.
-- Snacks (Cheddar Crackers, Potato Chips, Pop Corn) carry large stock values but have relatively slower turnover, indicating potential over-investment.
-- Beverages (Orange Juice, Cola Drink, Iced Coffee) perform steadily with mid-level stock and revenue contributions.
+- **Toiletries** (Deodorant, Toothpaste, Soap) dominate sales revenue, showing **consistent demand**.
+- **Snacks** (Cheddar Crackers, Potato Chips, Pop Corn) carry **large stock values** but have relatively slower turnover, indicating **potential over-investment**.
+- **Beverages** (Orange Juice, Cola Drink, Iced Coffee) perform steadily with mid-level stock and revenue contributions.
 ___
 
 ### Recommendation
