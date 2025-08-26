@@ -3,7 +3,7 @@
 ___
 
 ### About this project
-This project is an automated inventory tracking system built in Excel with VBA, Power Query, PowerPivot, Pivot Tables, and dashboard. It streamlines the management of product purchases, sales, and stock levels. The system automatically updates KPIs, inventory status, and dashboard when new transactions are recorded. It is designed for small to medium-sized businesses to track inventory movement, monitor stock availability, and evaluate sales performance without relying on external software.
+This project is an automated inventory tracking system built in **Excel** with **VBA, Power Query, PowerPivot, Pivot Tables, and dashboard**. It streamlines the management of product purchases, sales, and stock levels. The system automatically updates KPIs, inventory status, and dashboard when new transactions are recorded. It is designed for small to medium-sized businesses to track inventory movement, monitor stock availability, and evaluate sales performance without relying on external software.
 ___
 
 ### Database Modelling
