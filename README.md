@@ -1,6 +1,5 @@
 # Automated Excel Inventory Tracking System with Dashboard
 ![Inventory Management Dashboard.jpg](https://github.com/jakejosh6751/Automated-Excel-Inventory-Tracking-System-with-Dashboard/blob/main/Inventory%20Management%20Dashboard.jpg)
-*short navigation animation*:
 ___
 
 ### About this project
