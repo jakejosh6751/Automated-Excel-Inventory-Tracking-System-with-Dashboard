@@ -125,19 +125,8 @@ ___
 #### 5. Strengthen Stock Monitoring & Alerts
 - Implement **automated stock alerts** for items nearing reorder levels.
 - Regularly reconcile **damaged vs available stock** to improve accuracy in demand forecasting.
+- Consider transitioning the system into **Power BI or SQL-based architecture** for scalability as transaction volume grows.
 ___
 
 ### Why This Analysis Matters: 
 > This analysis demonstrates the ability to **connect inventory data with business performance** - uncovering stock inefficiencies, missed sales opportunities, and demand seasonality. It highlights how data-driven insights can **improve revenue, optimize stockholding, and reduce costs**.
-___
-
-- **Optimize stock levels** by reducing over-purchased items and prioritising fast-moving products.
-- **Reorder point adjustments** should be set based on actual sales velocity instead of fixed thresholds.
-- Introduce **damage/loss tracking** for better cost accuracy.
-- Consider transitioning the system into **Power BI or SQL-based architecture** for scalability as transaction volume grows.
-
-
-
-
-
-
