@@ -9,7 +9,7 @@ This project is an automated inventory tracking system built in **Excel** with *
 ___
 
 ### Database Modelling
-The system uses a relational model. Two *Excel formatted* tables are created using sheets as the database:
+The system uses a relational model. Two *Excel formatted* tables are created using sheets as the database with an additional **Calendar** table in Power Query:
 - **Products (Dim)** defines product details;
 - **Transactions (Facts)** records transaction details;
 - **Calendar (Dim)** holds daily calendar dates.
