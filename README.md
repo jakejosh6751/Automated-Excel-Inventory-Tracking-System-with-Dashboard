@@ -4,7 +4,7 @@
 [Inventory Tracker Tour - 2 min](https://youtu.be/PzNUcIE3IwY?si=XpzNPpHeogggbvXa)
 ___
 
-### About this project
+### Project Overview
 This project is an automated inventory tracking system built in **Excel** with **Power Query, PowerPivot, Pivot Tables, Conditional formatting, VBA, and Dashboard**. It streamlines the management of product purchases, sales, and stock levels. The system automatically updates KPIs, inventory status, and dashboard when new transactions are recorded. It is designed for small to medium-sized businesses to track inventory movement, monitor stock availability, and evaluate sales performance without relying on external software.
 ___
 
